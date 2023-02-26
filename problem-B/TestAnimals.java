@@ -26,6 +26,7 @@ public class TestAnimals {
         }catch (UnsupportedOperationException ex){
             System.out.println(ex.getMessage());
         }
+        
         e.eat();
         e.walk();
         p.play();
